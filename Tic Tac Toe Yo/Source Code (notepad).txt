@@ -1,11 +1,9 @@
 // Tic Tac Toe Yo.cpp : Defines the entry point for the console application.
-#include "stdafx.h" //Only for VS 2015
+#include "stdafx.h" //Only for VS2015
 #include<iostream>
-#include<cmath>
 #include<cstdlib>
 #include<string>
-#include<vector>
-using namespace std;
+using namespace std; 
  
 //Start Board Spaces
 char first_square = ' ';
