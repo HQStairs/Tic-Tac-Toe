@@ -1,18 +1,11 @@
 // Tic Tac Toe Yo.cpp : Defines the entry point for the console application.
 //For 'Clearing' Console: std::cout << string( 100, '\n' );
 
-#include "stdafx.h"
+#include "stdafx.h" //Only VS2015
 #include<iostream>
-#include<fstream>
-#include<sstream>
-#include<cmath>
 #include<cstdlib>
 #include<string>
-#include<list>
-#include<vector>
-#include<algorithm>
-#include<stdexcept>
-using namespace std;
+using namespace std; //Only using stdlib, no reason not to use namespace
  
 //Start Board Spaces
 char first_square = ' ';
