@@ -60,6 +60,12 @@ void play_game() {
 		if (turn_number % 2 != 0) {
 			x_o = 'X';
 		}
+		//Start Tie Game
+		if (turn_number > 9) {
+			cout << "The game is a tie! How surprising.\n";
+			break;
+		}
+		//End Tie Game
 		//Check Turn Number
 		while (true) {
 			cout << "Turn number " << turn_number << ", It is Player " << x_o << "'s turn.\n";
@@ -170,13 +176,6 @@ void play_game() {
 			break;
 		}
 		//End Diagonal O Wins
-
-		//Start Tie Game
-		if (turn_number > 9) {
-			cout << "The game is a tie! How surprising.\n";
-			break;
-		}
-		//End Tie Game
 	}
 
 }
